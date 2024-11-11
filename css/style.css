@@ -1,0 +1,100 @@
+/* CSS Reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background: url("../img/bg2.jpg");
+    font-family: ubuntu;
+    background-size: cover;
+  }
+  .logo {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 5px;
+  }
+  .logo img {
+    filter: invert(100%);
+    width: 136px;
+  }
+  .logo h1 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: -51px;
+  }
+  .mid {
+    /* border: 2px solid red; */
+    display: block;
+    width: 50%;
+    margin: 40px auto;
+  }
+  .right {
+    display: inline-block;
+    /* border: 2px solid red;        */
+    position: absolute;
+    right: 34px;
+    top: 50px;
+  }
+  .nav {
+    display: inline-block;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 23px;
+  }
+  .nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 34px 23px;
+  }
+  .nav li a:hover,
+  .nav li a.active {
+    color: grey;
+    text-decoration: underline;
+  }
+  .btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 7px 13px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgb(63, 62, 62);
+  }
+  .container {
+    border: 2px solid white;
+    border-radius: 28px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    padding: 40px;
+    height: 300px;
+  }
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 83%;
+    margin: 5px auto;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 13px;
+    font-family: ubuntu;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .container button {
+    display: block;
+    width: 83%;
+    margin: 15px auto;
+    border-radius: 13px;
+  }
+  
+  
